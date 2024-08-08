@@ -7,6 +7,7 @@ const buttons = document.querySelectorAll("button");
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
     let randomIndex = Math.floor(Math.random() * 3);
-    computerChoice.innerText = choices[randomIndex];
+    userChoice.innerHTML = `<span>You chose</span> ${button.value}`;
+    computerChoice.innerHTML = `<span>Computer Chose</span> ${choices[randomIndex]}`;
   });
 });

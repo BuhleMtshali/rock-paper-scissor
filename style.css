@@ -34,3 +34,10 @@ button {
 div i:hover {
   color: #f77f00;
 }
+h3 {
+  font-size: 34px;
+  color: #f77f00;
+}
+span {
+  color: #e0e1dd;
+}

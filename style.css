@@ -7,3 +7,22 @@ h1 {
   color: #e0e1dd;
   font-size: 44px;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 90px;
+}
+h1 i {
+  color: #f77f00;
+}
+div i {
+  font-size: 80px;
+  padding: 25px;
+  cursor: pointer;
+  color: #e0e1dd;
+}
+div i:hover {
+  color: #f77f00;
+}

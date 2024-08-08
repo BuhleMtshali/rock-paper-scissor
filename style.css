@@ -22,6 +22,14 @@ div i {
   padding: 25px;
   cursor: pointer;
   color: #e0e1dd;
+  background-color: #0d1b2a;
+}
+button {
+  font-size: 80px;
+  padding: 25px;
+  cursor: pointer;
+  color: #e0e1dd;
+  background-color: #0d1b2a;
 }
 div i:hover {
   color: #f77f00;

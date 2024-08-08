@@ -23,15 +23,25 @@
       <i class="fa-regular fa-hand-scissors fa-bounce"></i>
     </h1>
     <div class="container">
-      <div class="rock">
-        <i class="fa-regular fa-hand-back-fist"></i>
+      <div class="rock" id="rock">
+        <button>
+          <i class="fa-regular fa-hand-back-fist"></i>
+        </button>
       </div>
-      <div class="paper">
-        <i class="fa-solid fa-scroll"></i>
+      <div class="paper" id="paper">
+        <button>
+          <i class="fa-solid fa-scroll"></i>
+        </button>
       </div>
-      <div class="scissor">
-        <i class="fa-regular fa-hand-scissors"></i>
+      <div class="scissor" id="scissor">
+        <button>
+          <i class="fa-regular fa-hand-scissors"></i>
+        </button>
       </div>
     </div>
+    <h3 class="userChoice" id="userChoice"></h3>
+    <h3 class="computerChoice" id="computerChoice"></h3>
+    <h3 class="winner" id="winner"></h3>
+    <script src="app.js"></script>
   </body>
 </html>
